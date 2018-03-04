@@ -1,0 +1,35 @@
+/* CSS */
+.tbp{
+  color: blue;
+  font-size: 29px;
+}
+
+.warna{
+  font-weight: bold;
+  font-size: 23px;
+  text-decoration: underline;
+  color: green;
+}
+
+.warna2{
+  color: green;
+  font-weight: bold;
+}
+
+h3{
+  text-decoration: underline;
+}
+
+span{
+  color: green;
+}
+
+#wrn{
+  color:red;
+}
+
+#wrn2{
+  color: yellow;
+  text-decoration: underline;
+  font-size: 40px;
+}
