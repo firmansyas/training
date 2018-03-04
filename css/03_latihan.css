@@ -1,0 +1,14 @@
+/* CSS */
+ p{
+   color: red;
+   font-style: italic;
+   font-size: 20px;
+ }
+ .tbp{
+   color: blue;
+   font-size: 200px;
+ }
+
+ h3{
+   text-decoration: underline;
+ }
