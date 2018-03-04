@@ -1,0 +1,29 @@
+/* css layout */
+
+/* header */
+#header{
+  background-color: red;
+  height: 100px;
+  width: 100%px;
+}
+/* menu */
+#menu{
+  background-color: green;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+}
+
+/* content */
+#content{
+  width: 100%;
+  background-color: grey;
+}
+
+/* footer */
+#footer{
+  background-color: yellow;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+}
