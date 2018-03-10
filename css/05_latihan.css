@@ -1,5 +1,12 @@
 /* css layout */
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower|Rammetto+One');
+
+/* @font-face {
+  src:url("font/f1.ttf");
+  font-family:"hurufkuh";
+} */
+
+
 /* CSS RESET */
 *{
   padding: 0;
@@ -46,11 +53,18 @@ body{
   font-weight: bold;
   text-transform: capitalize;
   line-height: 50px;
+  margin: 0 20px;
+}
+
+#menu a:hover{
+  color: blue;
+  text-decoration: underline;
 }
 
 /* content */
 #content{
   background-color: grey;
+  /* font-family: "hurufkuh"; */
 }
 
 /* content-bottom */
