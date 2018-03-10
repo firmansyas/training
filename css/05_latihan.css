@@ -1,5 +1,5 @@
 /* css layout */
-
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Rammetto+One');
 /* CSS RESET */
 *{
   padding: 0;
@@ -8,7 +8,8 @@
 
 /* body */
 body{
-  font-family: 'Arial';
+
+  font-family: 'Indie Flower', cursive;
   font-size: 15px;
 }
 
@@ -25,6 +26,10 @@ body{
   height: 100px;
   text-align: center;
   line-height: 95px;
+}
+
+#header h1{
+  font-family:Rammetto One;
 }
 
 /* menu */
@@ -46,6 +51,20 @@ body{
 /* content */
 #content{
   background-color: grey;
+}
+
+/* content-bottom */
+#content-bottom{
+  background-color: blue;
+  height: 400px;
+}
+
+.cb-box{
+  background-color:red;
+  height: 300px;
+  width: 290px;
+  float: left;
+  margin: 5px;
 }
 
 /* content */
