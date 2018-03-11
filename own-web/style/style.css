@@ -1,0 +1,96 @@
+/* css layout */
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Rammetto+One');
+
+/* @font-face {
+  src:url("font/f1.ttf");
+  font-family:"hurufkuh";
+} */
+
+
+/* CSS RESET */
+*{
+  padding: 0;
+  margin: 0;
+}
+
+/* body */
+body{
+
+  font-family: 'Indie Flower', cursive;
+  font-size: 15px;
+}
+
+/* wrapper */
+#wrapper{
+  background-color: brown;
+  width: 1200px;
+  margin: auto;
+}
+
+/* header */
+#header{
+  background-color: red;
+  height: 100px;
+  text-align: center;
+  line-height: 95px;
+}
+
+#header h1{
+  font-family:Rammetto One;
+}
+
+/* menu */
+#menu{
+  background-color: yellow;
+  height: 50px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#menu a{
+  text-decoration: none;
+  color: #0099FF;
+  font-weight: bold;
+  text-transform: capitalize;
+  line-height: 50px;
+  margin: 0 20px;
+}
+
+#menu a:hover{
+  color: blue;
+  text-decoration: underline;
+}
+
+/* content */
+#content{
+  background-color: grey;
+  /* font-family: "hurufkuh"; */
+}
+
+/* content-bottom */
+#content-bottom{
+  background-color: blue;
+  height: 400px;
+}
+
+.cb-box{
+  background-color:red;
+  height: 300px;
+  width: 290px;
+  float: left;
+  margin: 5px;
+}
+
+/* content */
+#content img{
+  width: 400px;
+  height: 350px;
+}
+
+/* footer */
+#footer{
+  background-color: yellow;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+}
